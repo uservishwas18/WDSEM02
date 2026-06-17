@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+    background-image: url('wbb.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center
+}
+p{
+    font-family: Arial;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+
+    color: #333;
+    text-align: right;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    text-shadow: #333 2px 2px 4px;
+    line-height: 1.5;
+    margin : 20px;
+    image-rendering: crisp-edges;
+    image-resolution: calc();
+    
+
+}
