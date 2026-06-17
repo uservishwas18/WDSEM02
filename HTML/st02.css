@@ -1,0 +1,25 @@
+.navigation1{
+    color:blue;
+    background:lightskyblue;
+    display:inline;
+    
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right:5px;
+    margin-top:50px;
+    padding:2px;
+
+}
+.navigation2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:rgb(165, 161, 83);
+    background:rgb(110, 115, 118);
+    display:inline;
+    padding:2px;
+    background-attachment: fixed;
+    align-items: center;
+
+}

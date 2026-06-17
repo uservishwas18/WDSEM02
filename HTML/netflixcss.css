@@ -1,0 +1,359 @@
+@media screen {}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Netflix';
+    src: url('Font/netsans1.otf') format('opentype'), url('Font/netsans.otf') format('opentype');
+}
+
+.hehe {}
+
+body {
+    font-family: sans-serif, 'netflix';
+    color: white;
+    background-color: #000000;
+}
+
+main {
+
+    height: 85vh;
+    background-image: url("netflixbg.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+main .con {
+    width: 100%;
+    height: 85vh;
+    opacity: 0.7666666;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+}
+
+main nav {
+
+    width: 83vw;
+    margin: 14px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main nav img {
+    width: 145px;
+    color: red;
+    fill: red;
+}
+
+main nav select {
+    background-color: #000000;
+    font-weight: 600;
+    font-size: 17px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: .3px solid white;
+    border-radius: 2px;
+    outline-style: none;
+}
+
+main nav button {
+    font-weight: 700;
+    width: 81px;
+    font-size: 13px;
+    height: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.box {
+    margin-top: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head1 {
+    width: 650px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.head2 {
+    margin-top: 28px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.head3 {
+    margin: 28px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.in {
+    margin-top: -13px;
+
+}
+
+.in input {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 13px;
+    width: 350px;
+    height: 28px;
+    background-color: black;
+    border: .5px solid grey;
+    border-radius: 2px;
+}
+
+.in button {
+    background-color: red;
+    color: white;
+    width: 220px;
+    height: 53px;
+    font-size: 21px;
+    font-weight: 900;
+    border: none;
+    border-radius: 2px;
+}
+
+.seperation {
+    height: 3px;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+
+.trend {
+    margin: 50px 145px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.movie {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: -60px 145px;
+    margin-bottom: 50px;
+    width: 80vw;
+    height: 45vh;
+    gap: 35px;
+    max-width: 80vw;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.m :hover{
+    transform: scale(1.08);
+    border-radius: 4px;
+}
+
+.m img {
+    height: 258px;
+    border-radius: 4px;
+    transition: .4s ease-in-out;
+}
+
+.reason {
+    margin: -50px 145px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.why {
+    display: flex;
+    margin: 0px 145px;
+    height: 30vh;
+    gap: 20px;
+    max-width: 90vw;
+
+}
+
+.w {
+    width: 350px;
+    height: 270px;
+    border-radius: 20px;
+    background: linear-gradient(to right, rgb(51 28 132 / 64%) 16%, rgb(60 41 103 / 64%), rgb(34 39 94 / 64%), rgba(54, 27, 101, 0.64), rgba(42, 17, 50, 0.64) 84%);
+}
+
+.w h3 {
+    font-size: 25px;
+    padding: 25px 15px;
+
+}
+
+.w p {
+
+    font-size: 17px;
+    padding: 16px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.w svg {
+    width: 75px;
+    margin-left: 244px;
+    margin-top: 37px;
+}
+
+.w2 svg {
+    margin-top: 30px;
+}
+
+.w3 svg {
+    margin-top: 54px;
+}
+.w4 svg {
+    margin-top: 28px;
+}
+
+.ask {
+   margin: 85px 145px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.freq {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 145px;
+    gap: 8px;
+}
+
+.btn2 {
+    cursor: pointer;
+    height: 84px;
+    padding: 30px;
+    text-align: start;
+    font-size: 27px;
+    font-weight: 500;
+    background-color: #292929;
+    color: white;
+    border: none;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto auto;
+    font-size: 17px;
+}
+
+.mem {
+    margin: 10px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.mem input {
+    margin-top: 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 13px;
+    width: 550px;
+    height: 28px;
+    background-color: black;
+    border: .5px solid grey;
+    border-radius: 2px;
+}
+
+.mem button {
+    background-color: red;
+    color: white;
+    width: 220px;
+    height: 53px;
+    font-size: 21px;
+    font-weight: 900;
+    border: none;
+    border-radius: 2px;
+}
+
+.ques {
+    color: #979696;
+    margin: 30px 144px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+u {
+    color: #979696;
+}
+
+.grid {
+    cursor: pointer;
+    color: #979696;
+    font-size: 15px;
+    margin: 40px 144px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.end select {
+    margin: 23px 144px;
+    background-color: #000000;
+    font-weight: 500;
+    font-size: 17px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: .3px solid white;
+    border-radius: 2px;
+    outline-style: none;
+    margin-bottom: 35px;
+}
+
+.net {
+    color: #979696;
+    margin: 0px 144px;
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
+.net div {
+    font-size: 15px;
+    margin-bottom: 30px;
+
+}
+
+.net span {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.net a {
+    font-size: 12px;
+    color: rgb(57, 127, 239);
+}
